@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is MatchedOrangeHRM]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30001" started-at="2020-07-17T02:54:24Z" finished-at="2020-07-17T02:54:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30001" started-at="2020-07-17T02:54:24Z" finished-at="2020-07-17T02:54:54Z">
+      <class name="scripts.TestScripts">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:scripts.TestScripts@735b478]" name="precondition" is-config="true" duration-ms="13053" started-at="2020-07-16T21:54:24Z" finished-at="2020-07-16T21:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="EmployeeTestCase()[pri:0, instance:scripts.TestScripts@735b478]" name="EmployeeTestCase" duration-ms="12254" started-at="2020-07-16T21:54:37Z" finished-at="2020-07-16T21:54:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is MatchedOrangeHRM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmployeeTestCase -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:scripts.TestScripts@735b478]" name="PostCondition" is-config="true" duration-ms="4667" started-at="2020-07-16T21:54:49Z" finished-at="2020-07-16T21:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+      </class> <!-- scripts.TestScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
